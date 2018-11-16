@@ -37,7 +37,6 @@ img {
   color: #626262;
   font-family: "Playfair Display";
   text-align: center;
-  padding-top: 45px;
   margin: auto;
 }
 .menu li {
@@ -47,6 +46,7 @@ img {
     margin-right: 60px;
 }
  .menu a {
+     display: block;
      color: #626262;
      text-transform: uppercase;
      text-decoration: none;
@@ -58,14 +58,16 @@ img {
 .container {
     width: 920px;
     margin: 0 auto;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 .main-page-list {
     list-style: none;
     font-size: 0;
+    padding: 0;
+    margin-bottom: 40px;
 }
 .article-group {
-    width: 400px;
+    width: 420px;
     margin: 0 0 100px 0;
     padding: 0;
     display: inline-block;
@@ -79,17 +81,15 @@ img {
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    height: 20px;
     margin: auto;
     margin-bottom: 30px;
 }
 .comment-text {
-    width: 400px;
-    height: 95px;
     font-size: 30px;
     color: #626262;
     font-family: "Playfair Display", serif;
     margin: auto;
+    margin-bottom: 30px;
 }
 .text-page {
     width: 400px;
@@ -98,6 +98,10 @@ img {
     line-height: 24px;
     color: #626262;
     font-family: "Playfair Display", serif;
+    margin:0;
+}
+.article-group:nth-last-of-type(-n+2) {
+    margin-bottom: 0;
 }
 .page-button {
     font-size: 20px;
@@ -107,6 +111,10 @@ img {
     color: #626262;
     margin: 0 auto;
     display: block;
+}
+.page-button:hover,
+.page button:focus {
+    color: #46c0f7;
 }
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
