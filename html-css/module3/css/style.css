@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body {
+  background:white;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  margin: 0 auto;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+  font-size: 0;
+  width: 920px;
+  margin: 0 auto;
+  padding: 25px 0 25px;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.menu .menu-item {
+  width: 160px;
+  height: 42px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Playfair Display";
+  text-align: center;
+  padding-top: 45px;
+  margin: auto;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li:not(:last-child) {
+    margin-right: 60px;
+}
+ .menu a {
+     color: #626262;
+     text-transform: uppercase;
+     text-decoration: none;
+}
+.menu-item a:hover,
+.menu-item a:focus {
+    color: #46c0f7;
+}
+.container {
+    width: 920px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.main-page-list {
+    list-style: none;
+    font-size: 0;
+}
+.article-group {
+    width: 400px;
+    margin: 0 0 100px 0;
+    padding: 0;
+    display: inline-block;
+}
+.article-group:not(:nth-child(2n)) {
+    margin-right:60px;
+}
+.comment-photo {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.comment-text {
+    width: 400px;
+    height: 95px;
+    font-size: 30px;
+    color: #626262;
+    font-family: "Playfair Display", serif;
+    margin: auto;
+}
+.text-page {
+    width: 400px;
+    height: 95px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Playfair Display", serif;
+}
+.page-button {
+    font-size: 20px;
+    width: 164px;
+    height: 60px;
+    background-color: white;
+    color: #626262;
+    margin: 0 auto;
+    display: block;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="ratio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path:inset(100%);
+    clip:rect(0 0 0 0);
+    overflow:hidden;
+}
+.page-image {
+    margin-bottom: 30px;
+}
