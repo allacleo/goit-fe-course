@@ -37,7 +37,6 @@ img {
   font-family: "Playfair Display";
   text-align: center;
   margin: auto;
-  padding: 0px;
 }
 .menu li {
     display: inline-block;
@@ -47,7 +46,6 @@ img {
 }
  .menu a {
      display: block;
-     font-size: 0px;
      color: #626262;
      text-transform: uppercase;
      text-decoration: none;
@@ -99,7 +97,7 @@ img {
     line-height: 24px;
     color: #626262;
     font-family: "Playfair Display", serif;
-    margin:0;
+    margin: 0;
 }
 .article-group:nth-last-of-type(-n+2) {
     margin-bottom: 0;
