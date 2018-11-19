@@ -21,8 +21,7 @@ img {
 }
 
 .wrapper {
-  font-size: 0;
-  width: 920px;
+  width: 900px;
   margin: 0 auto;
   padding: 25px 0 25px;
   margin-bottom: 0;
@@ -38,6 +37,7 @@ img {
   font-family: "Playfair Display";
   text-align: center;
   margin: auto;
+  padding: 0px;
 }
 .menu li {
     display: inline-block;
@@ -47,6 +47,7 @@ img {
 }
  .menu a {
      display: block;
+     font-size: 0px;
      color: #626262;
      text-transform: uppercase;
      text-decoration: none;
