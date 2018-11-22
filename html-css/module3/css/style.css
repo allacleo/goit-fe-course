@@ -28,6 +28,11 @@ img {
   margin-left: auto;
 }
 
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
 .menu .menu-item {
   width: 160px;
   height: 42px;
