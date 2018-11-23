@@ -143,12 +143,10 @@ body {
   float: right;
 }
 
-.products-footer:hover .products-name {
+.img-wrp:hover p {
   background-image: linear-gradient(
     to right,
     #1abc9c,
-    #1abc9c 80%,
-    #7fd9c7 80%,
     #7fd9c7
   );
   cursor: pointer;
