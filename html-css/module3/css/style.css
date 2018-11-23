@@ -29,18 +29,16 @@ img {
 }
 
 .menu {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
-.menu .menu-item {
-  width: 160px;
-  height: 42px;
+.menu-item {
   font-size: 14px;
   line-height: 24px;
   color: #626262;
   font-family: "Playfair Display";
-  text-align: center;
 }
 .menu li {
     display: inline-block;
@@ -95,8 +93,6 @@ img {
     margin-bottom: 30px;
 }
 .text-page {
-    width: 400px;
-    height: 95px;
     font-size: 14px;
     line-height: 24px;
     color: #626262;
