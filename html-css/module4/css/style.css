@@ -35,6 +35,7 @@ body {
   float: left;
   text-decoration: none;
   padding: 35px;
+  display: block;
 }
 
 .logo::first-letter {
@@ -45,13 +46,17 @@ body {
   width: 1170px;
 }
 
-.site-navigation {
+.site-navigation .clearfix {
   display: block;
-  height: 30px;
   line-height: 30px;
   font-size: 14px;
   list-style: none;
-  padding: 30px 0 30px 0;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list {
+float: left;
 }
 
 .site-navigation a {
@@ -59,12 +64,10 @@ body {
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
-  float: right;
   margin-right: 30px;
   text-decoration: none;
   color: black;
   display: block;
-  padding: 0;
 }
 .site-navigation a:hover {
   color: #1abc9c;
@@ -158,6 +161,8 @@ body {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .list-title::after {
